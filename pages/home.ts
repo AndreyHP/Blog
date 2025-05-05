@@ -17,7 +17,7 @@ function createImg(){
 	var div = document.getElementById("home-content") as HTMLElement;
 	var img = document.createElement("img");
 
-	img.src = "../img/002.png";
+	img.src = "./img/002.png";
 
 	img.className = "land-scape";
 
