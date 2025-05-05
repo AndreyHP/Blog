@@ -13,7 +13,7 @@ export const initHome = () => {
 function createImg() {
     var div = document.getElementById("home-content");
     var img = document.createElement("img");
-    img.src = "../img/002.png";
+    img.src = "./img/002.png";
     img.className = "land-scape";
     div === null || div === void 0 ? void 0 : div.appendChild(img);
 }
