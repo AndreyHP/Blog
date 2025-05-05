@@ -14,8 +14,8 @@ function createImgpage() {
     var div = document.getElementById("images-content");
     var img = document.createElement("img");
     var img02 = document.createElement("img");
-    img.src = "../img/255.png";
-    img02.src = "../img/232.png";
+    img.src = "./img/255.png";
+    img02.src = "./img/232.png";
     img.className = "img-list";
     img02.className = "img-list";
     div === null || div === void 0 ? void 0 : div.appendChild(img);
