@@ -16,8 +16,8 @@ function createImgpage(){
 	var img = document.createElement("img");
 	var img02 = document.createElement("img");
 
-	img.src = "../img/255.png";
-	img02.src = "../img/232.png";
+	img.src = "./img/255.png";
+	img02.src = "./img/232.png";
 
 
 	img.className = "img-list";
